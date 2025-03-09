@@ -1,26 +1,102 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>সিম্পল ওয়েবসাইট</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Simple Website</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #007bff;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .hero .btn {
+            display: inline-block;
+            background: #fff;
+            color: #007bff;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        /* Content */
+        .content {
+            padding: 30px 20px;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>আমার সিম্পল ওয়েবসাইট</h1>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <main>
-        <section class="content">
-            <h2>স্বাগতম!</h2>
-            <p>এটি একটি সিম্পল ওয়েবসাইটের উদাহরণ, যেখানে HTML & CSS ব্যবহার করা হয়েছে।</p>
-            <a href="#" class="btn">আরো জানুন</a>
-        </section>
-    </main>
-    
+
+    <section class="hero">
+        <h2>Explore the beauty of simplicity</h2>
+        <p>This is a simple website using HTML & CSS.</p>
+        <a href="#" class="btn">Learn More</a>
+    </section>
+
+    <section class="content">
+        <h2>Our Services</h2>
+        <p>We provide high-quality web design services to make your business stand out.</p>
+    </section>
+
     <footer>
-        <p>&copy; 2025 - আমার ওয়েবসাইট</p>
+        <p>&copy; 2025 All Rights Reserved.</p>
     </footer>
 </body>
 </html>
