@@ -1,36 +1,50 @@
+/* গ্লোবাল স্টাইল */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #222;
-    color: white;
     margin: 0;
     padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
 }
 
+/* হেডার */
 header {
-    background-color: #444;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+/* মেইন কন্টেন্ট */
+main {
     padding: 20px;
 }
 
-main {
-    margin-top: 50px;
+.content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    max-width: 500px;
 }
 
-button {
-    background-color: #008CBA;
-    color: white;
+/* বাটন ডিজাইন */
+.btn {
+    display: inline-block;
     padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
-button:hover {
-    background-color: #005f73;
-}
-
+/* ফুটার */
 footer {
-    margin-top: 50px;
-    padding: 10px;
     background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
